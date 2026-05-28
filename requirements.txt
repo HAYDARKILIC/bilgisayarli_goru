@@ -1,0 +1,11 @@
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7
+scikit-image>=0.21
+scikit-learn>=1.3
+imageio>=2.31
+jupyterlab>=4.0
+
+# Hafta 6 ayrıca bitirme projesinin isteğe bağlı bir PyTorch sürümünü de sunar.
+# Çalıştırmak için torch'u ayrıca kurun (NumPy notebook'ları için gerekli değildir):
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
