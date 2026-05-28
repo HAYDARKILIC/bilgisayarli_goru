@@ -1,4 +1,4 @@
-# Bilgisayarlı Görü: Piksellerden Derin Ağlara
+# Bilgisayarlı Görü
 
 Modern bilgisayarlı görüyü **saf NumPy ile sıfırdan** inşa eden, altı haftalık ve ilk ilkelere
 dayanan bir kurs, görüntü işlemenin klasik matematiğini, bugün görüyü güçlendiren evrişimli
