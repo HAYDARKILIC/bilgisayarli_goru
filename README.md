@@ -1,7 +1,7 @@
 # Bilgisayarlı Görü: Piksellerden Derin Ağlara
 
 Modern bilgisayarlı görüyü **saf NumPy ile sıfırdan** inşa eden, altı haftalık ve ilk ilkelere
-dayanan bir kurs — görüntü işlemenin klasik matematiğini, bugün görüyü güçlendiren evrişimli
+dayanan bir kurs, görüntü işlemenin klasik matematiğini, bugün görüyü güçlendiren evrişimli
 ağlara bağlıyor. Gauss bulanıklığından geri yayılımı yapılmış bir evrişim katmanına kadar her
 operatör, herhangi bir üst düzey kütüphaneye izin verilmeden önce elle türetilip uygulanıyor.
 
@@ -86,7 +86,7 @@ bağlayarak.
 ## Depo yapısı
 
 ```
-computer_vision/
+bilgisayarli_goru/
 ├── README.md
 ├── requirements.txt
 ├── notebooks/          # 12 ders notebook'u
@@ -99,24 +99,14 @@ computer_vision/
 ## Başlarken
 
 ```bash
-git clone https://github.com/HAYDARKILIC/computer_vision.git
-cd computer_vision
+git clone https://github.com/HAYDARKILIC/bilgisayarli_goru.git
+cd bilgisayarli_goru
 pip install -r requirements.txt
 jupyter lab
 ```
 
 `notebooks/01_images_as_arrays.ipynb` dosyasını açın ve yukarıdan aşağıya çalışın. Her notebook
 bağımsız çalışır ve kendi örnek görüntülerini üretir, dolayısıyla büyük görüntü indirmeleri yoktur.
-
----
-
-## Bu kurs nasıl kullanılır
-
-1. **Türetmeyi okuyun** — her operatör kod olarak sunulmaz, matematiksel olarak gerekçelendirilir.
-2. Verileni okumadan önce **uygulamayı kendiniz yazın**.
-3. **Görselleştirmeleri çalıştırın** — çekirdeği, eşiği, görüntüyü değiştirin; neyin bozulduğunu izleyin.
-4. **Alıştırmaları yapın** — çözümler her notebook'un en altında katlanmış halde bulunur.
-5. **İleriye bağlayın** — her notebook "Bunun modern görüde nerede karşımıza çıktığı" ile biter.
 
 ---
 
